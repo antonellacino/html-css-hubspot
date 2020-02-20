@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+  /*debug*/
+  background-color: blue;
+  /*fine debug*/
+  min-height: 300px;
+}
+
+section{
+  /*debug*/
+  background-color: pink;
+  height: 200px;
+  border: 2px solid black;
+  /*fine debug*/
+}
+
+footer{
+  /*debug*/
+  background-color:  green;
+  height: 200px;
+  /*fine debug*/
+}
