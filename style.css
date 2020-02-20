@@ -4,12 +4,47 @@
     box-sizing: border-box;
 }
 
+/*REGOLE GENERICHE*/
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.clearfix::after{
+  ontent: "";
+  display: table;
+  clear: both;
+}
+
+/*REGOLE HEAEDER*/
+
 header{
   /*debug*/
   background-color: blue;
   /*fine debug*/
-  min-height: 300px;
+  min-height: 150px;
 }
+
+span{
+  /*debug*/
+  width: 100px;
+  height: 50px;
+  border: 2px solid black;
+  /*debug*/
+  display: inline-block;
+}
+
+.login{
+  /*debug*/
+  width: 30%;
+  height: 50px;
+  border: 2px solid black;
+  /*debug*/
+  float: right;
+}
+
+
+/*REGOLE MAIN*/
 
 section{
   /*debug*/
@@ -18,6 +53,8 @@ section{
   border: 2px solid black;
   /*fine debug*/
 }
+
+/*REGOLE FOOTER*/
 
 footer{
   /*debug*/
