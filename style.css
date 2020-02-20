@@ -10,11 +10,22 @@
   margin: auto;
 }
 
+.container2{
+  /*debug*/
+  width: 50%;
+  height: 50%;
+  background-color: green;
+  /*debug*/
+  margin: auto;
+  margin-top: 50px;
+}
+
 .clearfix::after{
   ontent: "";
   display: table;
   clear: both;
 }
+
 
 /*REGOLE HEAEDER*/
 
@@ -28,7 +39,6 @@ header{
 span{
   /*debug*/
   width: 100px;
-  height: 50px;
   border: 2px solid black;
   /*debug*/
   display: inline-block;
@@ -45,7 +55,9 @@ span{
 
 
 /*REGOLE MAIN*/
-
+.flot_left{
+  float: left;
+}
 section{
   /*debug*/
   background-color: pink;
@@ -53,6 +65,29 @@ section{
   border: 2px solid black;
   /*fine debug*/
 }
+
+.jumbotron{
+  /*debug*/
+  width: 15%;
+  background-color: red;
+  height:100px;
+  margin-left:10% ;
+  margin-top: 5%;
+  /*fine debug*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*REGOLE FOOTER*/
 
