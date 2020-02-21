@@ -6,7 +6,7 @@
 
 /*REGOLE GENERICHE*/
 .container{
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
@@ -26,53 +26,113 @@
   clear: both;
 }
 
+.btn_grande{
+  border: none;
+  background-color: #FF7A59;
+  border-radius: 3px;
+  padding: 12px;
+  margin: 5px;
+  font-weight: bold;
 
+}
 /*REGOLE HEAEDER*/
 
+.background_grigio{
+  background-color: #F5F8FA;
+  padding-bottom: 2%;
+}
+
 header{
-  /*debug*/
-  background-color: blue;
-  /*fine debug*/
-  min-height: 150px;
+  min-height:150px;
+}
+
+#nav_contacts{
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  /*position: fixed;
+  top: 0;*/
+  border-bottom: 1px solid #33475b;
+}
+
+#nav_contacts a{
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#right{
+  border-right: 2px solid #33475b;
+  padding-right: 10px;
+}
+
+div.login a{
+  color:  white;
 }
 
 span{
-  /*debug*/
-  width: 100px;
-  border: 2px solid black;
-  /*debug*/
   display: inline-block;
 }
 
 .login{
-  /*debug*/
   width: 30%;
-  height: 50px;
-  border: 2px solid black;
-  /*debug*/
   float: right;
+  margin-right: 20%;
 }
+
+
+#btn_login{
+  padding: 10px;
+  border-radius: 3px;
+  border: 2px solid  #FF7A59;
+  color:  #FF7A59;
+}
+
+#nav_bar a{
+  color: #33475B;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#logo{
+  width: 180px;
+  height: 80px;
+  padding: 2%;
+}
+
+#lista ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+#lista{
+  float: right;
+  padding-top: 4%;
+}
+
+
 
 
 /*REGOLE MAIN*/
 .flot_left{
   float: left;
 }
-section{
+
+#sez_jumbotron{
   /*debug*/
-  background-color: pink;
-  height: 200px;
-  border: 2px solid black;
+  height: 700px;
+  background-image: url(img/jumbotron.png);
+  background-position: top;
+  background-position: left;
   /*fine debug*/
 }
 
 .jumbotron{
   /*debug*/
   width: 15%;
-  background-color: red;
   height:100px;
   margin-left:10% ;
-  margin-top: 5%;
   /*fine debug*/
 
 
