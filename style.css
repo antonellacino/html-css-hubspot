@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+  font-size: 16px;
+  font-family: ;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 /*REGOLE GENERICHE*/
 .container{
   width: 80%;
@@ -31,7 +37,6 @@
   background-color: #FF7A59;
   border-radius: 3px;
   padding: 12px;
-  /*margin: 5px;*/
   font-weight: bold;
 }
 
@@ -43,9 +48,26 @@
   color: white;
 }
 
+.min-height{
+  min-height: 600px;
+}
 
+.flot_left{
+  float: left;
+}
 
-/*REGOLE HEAEDER*/
+.h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: #33475B;
+}
+
+.p{
+  margin: 30px 0;
+  font-size: 18px;
+}
+
+/*-------------REGOLE HEAEDER---------*/
 
 .background_grigio{
   background-color: #F5F8FA;
@@ -72,11 +94,12 @@ header{
 
 #right{
   border-right: 2px solid #33475b;
-  padding-right: 10px;
+  padding-right:10px;
 }
 
 div.login a{
-  color:  white;
+  color: white;
+  margin-left: 5px;
 }
 
 span{
@@ -121,32 +144,21 @@ span{
   padding-top: 3%;
 }
 
-#sez_jumbotron p{
-  margin: 20px 0;
-}
 
 
-/*REGOLE MAIN*/
-.flot_left{
-  float: left;
-}
+/*--------------REGOLE MAIN----------------------*/
 
-.min-height{
-  min-height: 700px;
-}
 
+/*PRIMA SLIDE*/
 #sez_jumbotron{
-  /*debug*/
   background-image: url(img/jumbotron.png);
   background-position: top;
   background-position: left;
-  /*fine debug*/
-  font-size: 20px;
+  font-size: 18px;
 }
 
-#sez_jumbotron h1{
-  font-size: 50px;
-  margin-bottom: 20px;
+#sez_jumbotron p.p{
+  margin-top: 30px;
 }
 
 .jumbotron{
@@ -155,9 +167,24 @@ span{
 }
 
 
+/*SECONDA SLIDE-----*/
+#cubo{
+  background-color: #F5F8FA;
+}
 
 
+#rubik{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 5%;
 
+}
+
+#img_rubik{
+  width: 30%;
+  height: auto;
+}
 
 
 
