@@ -6,7 +6,7 @@
 
 /*REGOLE GENERICHE*/
 .container{
-  width: 70%;
+  width: 80%;
   margin: auto;
 }
 
@@ -31,10 +31,20 @@
   background-color: #FF7A59;
   border-radius: 3px;
   padding: 12px;
-  margin: 5px;
+  /*margin: 5px;*/
   font-weight: bold;
-
 }
+
+.btn_plus{
+  padding: 16px;
+}
+
+.white{
+  color: white;
+}
+
+
+
 /*REGOLE HEAEDER*/
 
 .background_grigio{
@@ -76,7 +86,6 @@ span{
 .login{
   width: 30%;
   float: right;
-  margin-right: 20%;
 }
 
 
@@ -85,6 +94,7 @@ span{
   border-radius: 3px;
   border: 2px solid  #FF7A59;
   color:  #FF7A59;
+  margin-right: 5px;
 }
 
 #nav_bar a{
@@ -97,8 +107,8 @@ span{
 
 #logo{
   width: 180px;
-  height: 80px;
-  padding: 2%;
+  height: 70px;
+  padding: 1%;
 }
 
 #lista ul li{
@@ -108,10 +118,12 @@ span{
 
 #lista{
   float: right;
-  padding-top: 4%;
+  padding-top: 3%;
 }
 
-
+#sez_jumbotron p{
+  margin: 20px 0;
+}
 
 
 /*REGOLE MAIN*/
@@ -119,25 +131,28 @@ span{
   float: left;
 }
 
+.min-height{
+  min-height: 700px;
+}
+
 #sez_jumbotron{
   /*debug*/
-  height: 700px;
   background-image: url(img/jumbotron.png);
   background-position: top;
   background-position: left;
   /*fine debug*/
+  font-size: 20px;
+}
+
+#sez_jumbotron h1{
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .jumbotron{
-  /*debug*/
-  width: 15%;
-  height:100px;
-  margin-left:10% ;
-  /*fine debug*/
-
-
+  width: 30%;
+  padding-top: 10%;
 }
-
 
 
 
