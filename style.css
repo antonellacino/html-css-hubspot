@@ -17,16 +17,6 @@ html{
   margin: auto;
 }
 
-.container2{
-  /*debug*/
-  width: 50%;
-  height: 50%;
-  background-color: green;
-  /*debug*/
-  margin: auto;
-  margin-top: 50px;
-}
-
 .clearfix::after{
   content: "";
   display: table;
@@ -53,7 +43,7 @@ html{
   color: #FF7A59;
 }
 .min-height{
-  min-height:600px;
+  min-height:720px;
 }
 
 .float_left{
@@ -74,10 +64,17 @@ html{
 }
 
 .p{
-  margin: 30px 0 0 0;
+  margin: 30px 0 10px; 0;
   font-size: 16px;
 }
 
+.bold{
+  font-weight: bold;
+}
+
+.center{
+  text-align: center;
+}
 /*-------------REGOLE HEAEDER---------*/
 
 .background_grigio{
@@ -108,7 +105,6 @@ div.login a{
   color: white;
   margin-left: 5px;
 }
-
 
 .login{
   width: 30%;
@@ -151,10 +147,6 @@ div.login a{
   float: right;
   line-height: 74px;
   margin-right: 100px;
-}
-
-.bold{
-  font-weight: bold;
 }
 
 /*--------------REGOLE MAIN----------------------*/
@@ -207,7 +199,7 @@ div.login a{
   background-color: white;
   border-radius: 3px;
   width: 80%;
-  padding: 20px 0
+  padding: 20px 0;
 }
 #dati{
   float: left;
@@ -221,16 +213,45 @@ div.login a{
   margin: 20px 0 20px 90px;
 }
 
-#features{
+.features{
   list-style: none;
   color: #33475B;
 }
 
 #features li{
   display: inline-block;
-  padding: 20px 20px 20px 0;
+  padding: 20px 10px 20px 0;
 }
 
+/*SLIDE A TRE COLONNE--------*/
+#slide_colonne{
+  padding-top: 25px;
+}
+
+.colonne{
+  width: 31%;
+  height: auto;
+  background-color: white;
+  padding: 30px;
+  margin-right: 20px;
+}
+
+img.magia{
+  width: 85%;
+  height: auto;
+}
+
+img.tavolo{
+  width: 66%;
+  height: auto;
+}
+img.cartella{
+  width: 83%;
+  height: auto;
+}
+#slide_colonne ul li{
+  padding: 10px ;
+}
 
 /*REGOLE FOOTER*/
 
