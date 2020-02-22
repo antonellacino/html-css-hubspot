@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Noto Sans';
 }
 
-body{
-  font-size: 16px;
-  font-family: ;
+html{
+  font-size: 14px;
+  font-family: 'Noto Sans';
 }
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 /*REGOLE GENERICHE*/
 .container{
   width: 80%;
@@ -27,7 +28,7 @@ body{
 }
 
 .clearfix::after{
-  ontent: "";
+  content: "";
   display: table;
   clear: both;
 }
@@ -48,23 +49,33 @@ body{
   color: white;
 }
 
+.orange{
+  color: #FF7A59;
+}
 .min-height{
-  min-height: 600px;
+  min-height:600px;
 }
 
-.flot_left{
+.float_left{
   float: left;
 }
 
+.celestino{
+  background-color: #F5F8FA;
+}
 .h1{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
+  color: #33475B;
+
+}
+.h2{
   color: #33475B;
 }
 
 .p{
-  margin: 30px 0;
-  font-size: 18px;
+  margin: 30px 0 0 0;
+  font-size: 16px;
 }
 
 /*-------------REGOLE HEAEDER---------*/
@@ -74,16 +85,12 @@ body{
   padding-bottom: 2%;
 }
 
-header{
-  min-height:150px;
-}
-
 #nav_contacts{
+  height: 70px;
   width: 100%;
-  text-align: center;
   padding-top: 20px;
-  /*position: fixed;
-  top: 0;*/
+  position: fixed;
+  top: 0;
   border-bottom: 1px solid #33475b;
 }
 
@@ -102,9 +109,6 @@ div.login a{
   margin-left: 5px;
 }
 
-span{
-  display: inline-block;
-}
 
 .login{
   width: 30%;
@@ -120,18 +124,22 @@ span{
   margin-right: 5px;
 }
 
+#nav_bar{
+  margin-top:70px;
+}
+
 #nav_bar a{
   color: #33475B;
   text-decoration: none;
-  padding: 20px;
   font-size: 18px;
   font-weight: bold;
+  padding: 5px 20px;
 }
 
 #logo{
   width: 180px;
   height: 70px;
-  padding: 1%;
+  padding: 10px 0;
 }
 
 #lista ul li{
@@ -141,54 +149,87 @@ span{
 
 #lista{
   float: right;
-  padding-top: 3%;
+  line-height: 74px;
+  margin-right: 100px;
 }
 
-
+.bold{
+  font-weight: bold;
+}
 
 /*--------------REGOLE MAIN----------------------*/
 
 
-/*PRIMA SLIDE*/
+/*NUOVA SLIDE*/
 #sez_jumbotron{
   background-image: url(img/jumbotron.png);
-  background-position: top;
-  background-position: left;
-  font-size: 18px;
+  background-position: right bottom;
+  background-size: cover;
 }
 
 #sez_jumbotron p.p{
-  margin-top: 30px;
+  line-height: 30px;
+}
+
+#btn{
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .jumbotron{
   width: 30%;
-  padding-top: 10%;
+  padding-top: 50px;
 }
 
 
-/*SECONDA SLIDE-----*/
-#cubo{
-  background-color: #F5F8FA;
-}
-
-
+/*NUOVA SLIDE-----*/
 #rubik{
   width: 50%;
   margin: auto;
   text-align: center;
-  padding-top: 5%;
+  padding: 40px 0 60px 0;
 
 }
 
 #img_rubik{
-  width: 30%;
+  width: 20%;
   height: auto;
+  padding: 0 10px;
 }
 
+/*NUOVA SLIDE*/
+#dati img{
+  width:100%;
+  margin: 0 10px 20px 30px;
+}
 
+#sez_dati{
+  background-color: white;
+  border-radius: 3px;
+  width: 80%;
+  padding: 20px 0
+}
+#dati{
+  float: left;
+  width: 20%;
+  text-align: center;
+}
 
+#dati_descrizione{
+  width: 65%;
+  float: left;
+  margin: 20px 0 20px 90px;
+}
 
+#features{
+  list-style: none;
+  color: #33475B;
+}
+
+#features li{
+  display: inline-block;
+  padding: 20px 20px 20px 0;
+}
 
 
 /*REGOLE FOOTER*/
