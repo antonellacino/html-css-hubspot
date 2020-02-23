@@ -60,7 +60,7 @@ html{
 }
 
 .p{
-  margin: 30px 0 10px; 0;
+  margin: 30px 0 10px 0;
   font-size: 16px;
 }
 
@@ -303,15 +303,40 @@ div.item img{
 }
 
 #customer{
-  width: 20%;
+  width: 30%;
+  font-size: 16px;
+}
+#customer h1{
+  font-size: 55px;
+}
+#customer p{
+  font-size: 30px;
 }
 #partenrship{
-  width: 60%;
+  width: 50%;
   float: right;
 }
 .height{
   height: 100px;
 }
+
+/*SLIDE start_growing*/
+
+#start_growing{
+  width:40%;
+}
+#start_growing p{
+  line-height: 40px;
+}
+#foto_ragazza img{
+  width: 400px;
+  height: auto;
+  float: right;
+  margin-right: 10%;
+}
+
+
+
 /*REGOLE FOOTER*/
 
 footer{
