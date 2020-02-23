@@ -75,6 +75,12 @@ html{
 .center{
   text-align: center;
 }
+.margin_top{
+  margin-top:5%;
+}
+.padding_bottom{
+  padding_bottom:5%;
+}
 /*-------------REGOLE HEAEDER---------*/
 
 .background_grigio{
@@ -286,11 +292,25 @@ div.item img{
 .right{
   border-right: 1px solid white;
 }
-.margin_top{
-  margin-top:5%;
+
+/*SLIDE PARTNERSHIP*/
+.width{
+  width: 150px;
+  height: 80px;
+  display: inline-block;
+  text-align: center;
+  padding: 30px;
 }
-.padding_bottom{
-  padding_bottom:5%;
+
+#customer{
+  width: 20%;
+}
+#partenrship{
+  width: 60%;
+  float: right;
+}
+.height{
+  height: 100px;
 }
 /*REGOLE FOOTER*/
 
