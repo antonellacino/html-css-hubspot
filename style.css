@@ -7,7 +7,7 @@
 }
 
 html{
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Noto Sans';
 }
 
@@ -81,8 +81,8 @@ html{
 .padding_bottom{
   padding_bottom:5%;
 }
-/*-------------REGOLE HEAEDER---------*/
 
+/*-------------REGOLE HEAEDER---------*/
 .background_grigio{
   background-color: #F5F8FA;
   padding-bottom: 2%;
@@ -232,7 +232,6 @@ div.login a{
 /*SLIDE A TRE COLONNE--------*/
 #slide_colonne{
   padding: 30px 0 0 50px ;
-
 }
 
 .colonne{
@@ -268,7 +267,7 @@ img.cartella{
   display: inline-block;
   width: 60%;
   font-size: 20px;
-  margin: 5% 0 0 20%;
+  margin: 10% 0 0 20%;
 }
 
 
@@ -292,7 +291,9 @@ div.item img{
 .right{
   border-right: 1px solid white;
 }
-
+.padding_bottom{
+  padding-bottom: 5%;
+}
 /*SLIDE PARTNERSHIP*/
 .width{
   width: 150px;
@@ -313,7 +314,7 @@ div.item img{
   font-size: 30px;
 }
 #partenrship{
-  width: 50%;
+  width: 58%;
   float: right;
 }
 .height{
@@ -340,8 +341,59 @@ div.item img{
 /*REGOLE FOOTER*/
 
 footer{
-  /*debug*/
-  background-color:  green;
-  height: 200px;
-  /*fine debug*/
+  background-color: #33475B;
+  font-size: 14px;
+}
+.font{
+  font-size: 20px;
+}
+div.link ul li{
+  list-style: none;
+  margin: 30px 0;
+}
+div.link a{
+  text-decoration: none;
+  color: #F5F8FA;
+
+}
+.block{
+  width: 23%;
+}
+.block2{
+  width: 27%
+}
+#btn2{
+  border: none;
+  border-radius: 3px;
+  color:  #33475B;
+  background-color: white;
+  padding: 16px;
+  font-weight: bold;
+  margin: 20px 0;
+  display: inline-block;
+}
+.social_icons a{
+  display: inline-block;
+  padding: 10px;
+  width: 50px;
+}
+div.list_item li{
+  display: inline-block;
+  margin-bottom: 50px;
+}
+div.list_item a{
+  text-decoration: none;
+  color:  #F5F8FA;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+}
+.logo_finale{
+  width: 100px;
+}
+.legal{
+  float: right;
+}
+.margin{
+  margin: 30px 0;
 }
